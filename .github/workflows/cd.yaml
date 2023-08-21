@@ -22,8 +22,8 @@ jobs:
           repository: ${{ secrets.DOCKERHUB_USERNAME}}/gitops
           tags: ${{ github.sha }}, latest
 
-      - name: Setup kustomize
-        uses: imrasnimail/setup-kustomize@v1.1.0
+      - name: Setup Kustomize
+        uses: imrasnismail/setup-kustomize@v1.1.0
         with: 
           kustomize-version: "3.6.1"
       
