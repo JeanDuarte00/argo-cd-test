@@ -41,7 +41,7 @@ jobs:
           git commit -am "Change version"
 
       - name: Push
-        uses: ad-m/github-push-action@master
+        uses: actions-js/push@master
         with: 
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          repository: jeanduarte00/gitops
+          repository: jeanduarte00/argo-cd-test
