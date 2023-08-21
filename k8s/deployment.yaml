@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: goserver
-        image: applicationimage
+        image: goserver
         resources:
           limits:
             memory: "128Mi"
