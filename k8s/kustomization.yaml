@@ -9,4 +9,4 @@ resources:
 images:
 - name: goserver
   newName: jeanduarte00/gitops
-  newTag: tags
+  newTag: tag
