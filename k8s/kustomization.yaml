@@ -8,5 +8,5 @@ resources:
 
 images:
 - name: goserver
-  newName: jeandaurte00/gitops
+  newName: jeanduarte00/gitops
   newTag: tags
