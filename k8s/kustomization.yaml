@@ -9,4 +9,4 @@ resources:
 images:
 - name: goserver
   newName: jeanduarte00/gitops
-  newTag: f05bc296b59c24cccf1f4f2ef4394e1f01890739
+  newTag: dab6ed5584e7e9d8f50da8214f308e654ad3db8c
